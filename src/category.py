@@ -1,7 +1,6 @@
-
-
 class Category:
     """Создание класса Категорий продукции"""
+
     name: str
     description: str
     products: list
@@ -9,7 +8,7 @@ class Category:
     product_count = 0
 
     def __init__(self, name, description, products):
-        """Инициализация класса """
+        """Инициализация класса"""
         self.name = name
         self.description = description
         self.products = products
@@ -38,7 +37,8 @@ class Category:
 #     print(product3.quantity)
 #
 #     category1 = Category("Смартфоны",
-#                          "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+#                          "Смартфоны, как средство не только коммуникации,
+#                          но и получения дополнительных функций для удобства жизни",
 #                          [product1, product2, product3])
 #
 #     print(category1.name == "Смартфоны")
@@ -49,7 +49,8 @@ class Category:
 #
 #     product4 = Product("55\" QLED 4K", "Фоновая подсветка", 123000.0, 7)
 #     category2 = Category("Телевизоры",
-#                          "Современный телевизор, который позволяет наслаждаться просмотром, станет вашим другом и помощником",
+#                          "Современный телевизор,
+#                          который позволяет наслаждаться просмотром, станет вашим другом и помощником",
 #                          [product4])
 #
 #     print(category2.name)
