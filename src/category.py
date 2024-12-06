@@ -12,9 +12,9 @@ class Category:
     category_count = 0
     product_count = 0
 
-    @property
-    def products(self):
-        return self.__products
+    # @property
+    # def products(self):
+    #     return self.__products
 
     def add_product(self, new_product: Product):
         self.__products.append(new_product)
